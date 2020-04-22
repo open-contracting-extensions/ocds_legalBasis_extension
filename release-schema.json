@@ -12,7 +12,7 @@
         },
         "legalBasis": {
           "title": "Legal basis",
-          "description": "Information on the legal basis of the procedure.",
+          "description": "The legal basis of the procedure.",
           "$ref": "#/definitions/Classification"
         }
       }

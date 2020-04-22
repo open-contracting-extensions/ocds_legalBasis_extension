@@ -3,7 +3,7 @@
     "en": "Legal basis"
   },
   "description": {
-    "en": "Adds an object in Tender to describe the legal basis of the procedure."
+    "en": "Adds fields to the tender object to describe the legal basis of the procedure."
   },
   "documentationUrl": {
     "en": "https://github.com/open-contracting-extensions/ocds_legalBasis_extension"

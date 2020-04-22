@@ -1,6 +1,8 @@
 # Legal basis
 
-Adds properties in Tender with information on the legal basis of the procedure.
+Adds fields to the tender object to describe the legal basis of the procedure.
+
+The `tender.legalBasis` field is a `Classification` object. Example classification schemes are [LEX](https://en.wikipedia.org/wiki/Lex_(URN)), [CELEX](https://eur-lex.europa.eu/content/help/faq/intro.html#help8) and [ELI](https://en.wikipedia.org/wiki/European_Legislation_Identifier).
 
 ## Legal context
 
