@@ -4,7 +4,7 @@ Adds fields to the tender object to describe the legal basis of the procedure.
 
 The `tender.legalBasis` field is a `Classification` object. Example classification schemes are [LEX](https://en.wikipedia.org/wiki/Lex_(URN)), [CELEX](https://eur-lex.europa.eu/content/help/faq/intro.html#help8) and [ELI](https://en.wikipedia.org/wiki/European_Legislation_Identifier).
 
-For the specific case of disclosing whether tenders are open to international suppliers under a treaty, use the [coveredBy extension](https://extensions.open-contracting.org/en/extensions/coveredBy/master/).
+To indicate whether a procedure is covered by an international treaty like the Agreemement on Government Procurement (GPA), use the [coveredBy extension](https://extensions.open-contracting.org/en/extensions/coveredBy/) instead.
 
 ## Legal context
 
