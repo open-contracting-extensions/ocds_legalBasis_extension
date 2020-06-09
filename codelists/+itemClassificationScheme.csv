@@ -1,3 +1,2 @@
-
-Code,Title,Description,Source,Context
-CELEX,EUR-Lex documents,Identification scheme for EUR-Lex documents,https://eur-lex.europa.eu/,tender
+Code,Title,Description,Source,Category
+CELEX,CELEX number,Identifier scheme for EUR-Lex documents,https://eur-lex.europa.eu/content/help/faq/intro.html#help8,legalBasis
