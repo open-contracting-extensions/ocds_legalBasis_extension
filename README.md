@@ -4,7 +4,7 @@ Adds fields to the tender object to describe the legal basis of the contracting 
 
 The `tender.legalBasis` field is a `Classification` object. Example classification schemes are [LEX](https://en.wikipedia.org/wiki/Lex_(URN)), [CELEX](https://eur-lex.europa.eu/content/help/faq/intro.html#help8) and [ELI](https://en.wikipedia.org/wiki/European_Legislation_Identifier).
 
-To identify the procedure used, whether by formal name or by legal citation, use the [`tender.procurementMethodDetails`](https://standard.open-contracting.org/latest/en/schema/reference/#release-schema.json,/definitions/Tender,procurementMethodDetails) field. To indicate whether the contracting process is covered by a treaty, like the Agreement on Government Procurement (GPA), use the [coveredBy](https://extensions.open-contracting.org/en/extensions/coveredBy/) extension. To indicate whether the contracting process is accelerated, involves framework agreements, or has other modularities, [browse the extensions](https://extensions.open-contracting.org/).
+To identify the procedure used, whether by formal name or by legal citation, use the [`tender.procurementMethodDetails`](https://standard.open-contracting.org/latest/en/schema/reference/#release-schema.json,/definitions/Tender,procurementMethodDetails) field. To indicate whether the contracting process is covered by a treaty, like the Agreement on Government Procurement (GPA), use the [coveredBy](https://extensions.open-contracting.org/en/extensions/coveredBy/) extension. To indicate whether the contracting process is accelerated, involves framework agreements, or has other modalities, [browse the extensions](https://extensions.open-contracting.org/).
 
 ## Legal context
 
