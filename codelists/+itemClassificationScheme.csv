@@ -1,3 +1,3 @@
 Code,Title,Description,Source,Category
 CELEX,CELEX number,Identifier scheme for EUR-Lex documents,https://eur-lex.europa.eu/content/help/faq/intro.html#help8,legalBasis
-LEXML,LEXML URN,Identifier scheme for BR-Lex documents,https://projeto.lexml.gov.br/,legalBasis
+LexML,LexML URN,Identifier scheme for BR-Lex documents,https://projeto.lexml.gov.br/,legalBasis
