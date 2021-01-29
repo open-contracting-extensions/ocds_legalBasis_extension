@@ -10,7 +10,7 @@ To indicate whether the contracting process is covered by a treaty, like the Agr
 
 ## Guidance
 
-If the legal basis is country-specific, it is recommended to add an ISO 3166-1 alpha-2 prefix to the classification scheme (e.g "HN-ONCAE" for the Oficina Normativa de Contratación y Adquisiciones del Estado, in Honduras).
+If the legal basis is country-specific, it is recommended to prefix the [ISO 3166-1 alpha-2 code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) to the classification scheme: for example, "HN-ONCAE" for the Oficina Normativa de Contratación y Adquisiciones del Estado (ONCAE) in Honduras.
 
 ## Legal context
 
