@@ -18,9 +18,9 @@ In the European Union, this extension's fields correspond to [eForms BT-01 (Proc
 
 ## Version
 
-Due to the integration of the codelist of this extension into OCDS 1.2, the URL to use it depends on the version of OCDS of your data:
+The `+itemClassificationScheme.csv` codelist has been removed from this extension and added to OCDS 1.2. The URL to use it depends consequently on the version of OCDS of your data:
 
-- If you use OCDS 1.2, import this extension using this URL: https://raw.githubusercontent.com/open-contracting-extensions/ocds_legalBasis_extension/master/extension.json.
+- If you use OCDS 1.2, import this extension using the usual URL: https://raw.githubusercontent.com/open-contracting-extensions/ocds_legalBasis_extension/master/extension.json.
 - If you use OCDS 1.0 or 1.1, use this URL: https://raw.githubusercontent.com/open-contracting-extensions/ocds_legalBasis_extension/1.1/extension.json.
 
 ## Example
