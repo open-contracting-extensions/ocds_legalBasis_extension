@@ -14,9 +14,6 @@
   "schemas": [
     "release-schema.json"
   ],
-  "codelists": [
-    "+itemClassificationScheme.csv"
-  ],
   "contactPoint": {
     "name": "Open Contracting Partnership",
     "email": "data@open-contracting.org"
