@@ -45,7 +45,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2021-02-04
 
-* [#1157](https://github.com/open-contracting/standard/issues/1157) Move the additional codes from the `+itemClassificationScheme.csv` codelist to OCDS.
+* [#1157](https://github.com/open-contracting/standard/issues/1157) Move the additional codes from the `+itemClassificationScheme.csv` codelist to the standard.
 
 ### 2021-01-19
 
