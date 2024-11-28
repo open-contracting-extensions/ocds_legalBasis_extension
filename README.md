@@ -21,10 +21,15 @@ In the European Union, this extension's fields correspond to [eForms BT-01 (Proc
 ```json
 {
   "tender": {
-    "crossBorderLaw": "Italian procurement legislation",
+    "crossBorderLaw": "UK procurement legislation",
     "legalBasis": {
-      "id": "32014L0025",
-      "scheme": "CELEX"
+      "id": "https://www.legislation.gov.uk/id/uksi/2015/102",
+      "scheme": "ELI",
+      "wasDerivedFrom": {
+        "id": "32014L0024",
+        "scheme": "CELEX",
+        "uri": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011R1007"
+      }
     }
   }
 }

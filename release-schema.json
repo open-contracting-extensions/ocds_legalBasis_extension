@@ -14,7 +14,45 @@
         "legalBasis": {
           "title": "Legal basis",
           "description": "The legal basis of the procedure.",
-          "$ref": "#/definitions/Classification"
+          "type": "object",
+          "properties": {
+            "scheme": {
+              "title": "Scheme",
+              "description": "The scheme or codelist from which the legislation code is taken.",
+              "type": [
+                "string",
+                "null"
+              ],
+              "codelist": "+itemClassificationScheme.csv",
+              "openCodelist": true,
+              "minLength": 1
+            },
+            "id": {
+              "title": "ID",
+              "description": "The legislation code taken from the scheme.",
+              "type": [
+                "string",
+                "integer",
+                "null"
+              ],
+              "minLength": 1
+            },
+            "uri": {
+              "title": "URI",
+              "description": "A URI to uniquely identify the legislation.",
+              "type": [
+                "string",
+                "null"
+              ],
+              "format": "uri"
+            },
+            "wasDerivedFrom": {
+              "title": "Was derived from",
+              "description": "The directive the legislation was derived from.",
+              "$ref": "#/definitions/Classification"
+            }
+          },
+          "minProperties": 1
         }
       }
     }
