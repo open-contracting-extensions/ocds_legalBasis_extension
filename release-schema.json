@@ -23,7 +23,7 @@
                 "string",
                 "null"
               ],
-              "codelist": "+itemClassificationScheme.csv",
+              "codelist": "legalClassificationScheme.csv",
               "openCodelist": true,
               "minLength": 1
             },
