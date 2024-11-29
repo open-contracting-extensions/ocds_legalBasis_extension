@@ -15,7 +15,7 @@
     "release-schema.json"
   ],
   "codelists": [
-    "legalClassificationScheme.csv"
+    "+itemClassificationScheme.csv"
   ],
   "contactPoint": {
     "name": "Open Contracting Partnership",

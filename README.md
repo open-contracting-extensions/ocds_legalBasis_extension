@@ -43,12 +43,11 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2024-11-28
 
-* Add `wasDerivedFrom` property.
-* Rename codelist to `legalClassificationScheme.csv`.
+* Add `wasDerivedFrom` field.
 
 ### 2023-08-01
 
-* Add 'ELI' to "+itemClassificationScheme.csv".
+* Add 'ELI' to `+itemClassificationScheme.csv`.
 
 ### 2021-01-19
 
