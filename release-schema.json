@@ -18,7 +18,7 @@
           "properties": {
             "scheme": {
               "title": "Scheme",
-              "description": "The scheme or codelist from which the legislation code is taken.",
+              "description": "The scheme or codelist from which the legislation's code is taken.",
               "type": [
                 "string",
                 "null"
@@ -29,7 +29,7 @@
             },
             "id": {
               "title": "ID",
-              "description": "The legislation code taken from the scheme.",
+              "description": "The legislation's code taken from the scheme.",
               "type": [
                 "string",
                 "integer",
