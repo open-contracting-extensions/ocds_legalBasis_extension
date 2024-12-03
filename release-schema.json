@@ -13,12 +13,12 @@
         },
         "legalBasis": {
           "title": "Legal basis",
-          "description": "The legal basis of the procedure.",
+          "description": "The laws and regulations that govern the contracting process and grant legal authority to the procuring entity.",
           "type": "object",
           "properties": {
             "scheme": {
               "title": "Scheme",
-              "description": "The scheme or codelist from which the legislation's code is taken.",
+              "description": "The identifier scheme from which the legislation's identifier is taken.",
               "type": [
                 "string",
                 "null"
@@ -29,10 +29,9 @@
             },
             "id": {
               "title": "ID",
-              "description": "The legislation's code taken from the scheme.",
+              "description": "The legislation's identifier taken from the scheme.",
               "type": [
                 "string",
-                "integer",
                 "null"
               ],
               "minLength": 1
@@ -48,7 +47,7 @@
             },
             "wasDerivedFrom": {
               "title": "Was derived from",
-              "description": "The directive the legislation was derived from.",
+              "description": "The law or regulation that the legislation transposes, updates or builds upon. For example, in the EU, some national legislation transposes EU directives.",
               "$ref": "#/definitions/Classification"
             }
           },
