@@ -36,6 +36,15 @@
               ],
               "minLength": 1
             },
+            "description": {
+              "title": "Description",
+              "description": "A textual description or title for the legislation's identifier.",
+              "type": [
+                "string",
+                "null"
+              ],
+              "minLength": 1
+            },
             "uri": {
               "title": "URI",
               "description": "A URI to uniquely identify the legislation.",
