@@ -45,7 +45,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2024-11-28
 
-* Add `wasDerivedFrom` object.
+* Add `tender.legalBasis.wasDerivedFrom` field.
 
 ### 2023-08-01
 
