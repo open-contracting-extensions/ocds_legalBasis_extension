@@ -13,7 +13,7 @@
         },
         "legalBasis": {
           "title": "Legal basis",
-          "description": "The laws and regulations that govern the contracting process and grant legal authority to the procuring entity.",
+          "description": "The law or regulation that governs the contracting process and grants legal authority to the buyer or procuring entity.",
           "type": "object",
           "properties": {
             "scheme": {
@@ -23,7 +23,7 @@
                 "string",
                 "null"
               ],
-              "codelist": "itemClassificationScheme.csv",
+              "codelist": "legislationClassificationScheme.csv",
               "openCodelist": true,
               "minLength": 1
             },
@@ -56,13 +56,59 @@
             },
             "wasDerivedFrom": {
               "title": "Was derived from",
-              "description": "The law or regulation that the legislation transposes, updates or builds upon. For example, in the EU, some national legislation transposes EU directives.",
-              "$ref": "#/definitions/Classification"
+              "description": "The law or regulation that the legislation transposes, updates or builds upon. For example, in the EU, national legislation transposes EU directives.",
+              "$ref": "#/definitions/Legislation"
             }
           },
           "minProperties": 1
         }
       }
+    },
+    "Legislation": {
+      "title": "Legislation",
+      "description": "A law or regulation.",
+      "type": "object",
+      "properties": {
+        "scheme": {
+          "title": "Scheme",
+          "description": "The identifier scheme from which the legislation's identifier is taken.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "codelist": "legislationClassificationScheme.csv",
+          "openCodelist": true,
+          "minLength": 1
+        },
+        "id": {
+          "title": "ID",
+          "description": "The legislation's identifier taken from the scheme.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "description": {
+          "title": "Description",
+          "description": "A textual description or title for the legislation's identifier.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "uri": {
+          "title": "URI",
+          "description": "A URI to uniquely identify the legislation.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        }
+      },
+      "minProperties": 1
     }
   }
 }
